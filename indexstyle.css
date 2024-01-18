@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "inter";
+    margin: 80px;
+}
+
+header{
+    text-align: center;
+}
+
+a:hover{
+    color: blueviolet;
+}
+header p{
+    font-size: 20px;
+}
+
+.home{
+    color: #030303;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    font-size: 32px;
+    margin-top: 200px;
+    margin-bottom: 400px;
+    text-align: center;
+}
+
+article a{
+    color: #030303;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-bottom: 400px;
+}
+
+nav a{
+    color: #030303;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+main{
+    margin-bottom: 400px;
+}
+
+main a{
+    color: #030303;
+    display: block;
+    font-family: inter;
+    font-size: 96px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+main a:hover{
+    font-size: 120px;
+}
+
+.article img{
+    height: 400px;
+    width: 520px;
+}
+
+.tools{
+    text-align: center;
+}
+.tools h1{
+    font-size: 32px;
+}
+
+.tools p{
+    font-size: 20px;
+}
+
+.toolsIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.tools img{
+    margin: 20px;
+    width: 5%;
+}
+
+footer{
+    margin-top: 200px;
+    text-align: center;
+}
+
+input{
+    height: 24px;
+    width: 320px;
+}
+
+.footer{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.footer a{
+    color: #030303;
+    font-weight: bold;
+    text-decoration: none;
+}
