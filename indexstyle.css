@@ -2,43 +2,45 @@ html{
     scroll-behavior: smooth;
 }
 
+*{
+    color: #030303;
+}
+
 body{
     font-family: "inter";
     margin: 80px;
 }
 
 header{
+    margin-bottom: 200px;
     text-align: center;
+}
+
+a{
+    transition: 0.5s;
 }
 
 a:hover{
     color: blueviolet;
 }
+
 header p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.home{
-    color: #030303;
+header a{
+    font-size: 36px;
     font-weight: bold;
-    font-size: 40px;
     text-decoration: none;
 }
 
-header div{
-    display: flex;
-    justify-content: center;
-}
-
 article{
-    font-size: 32px;
-    margin-top: 200px;
+    font-size: 36px;
     margin-bottom: 400px;
     text-align: center;
 }
 
 article a{
-    color: #030303;
     font-weight: bold;
 }
 
@@ -50,9 +52,7 @@ nav{
 }
 
 nav a{
-    color: #030303;
-    font-size: 64px;
-    font-weight: 400;
+    font-size: 52px;
 }
 
 main{
@@ -60,10 +60,8 @@ main{
 }
 
 main a{
-    color: #030303;
     display: block;
-    font-family: inter;
-    font-size: 96px;
+    font-size: 90px;
     font-weight: bold;
     margin-bottom: 80px;
     text-decoration: none;
@@ -82,27 +80,25 @@ main a:hover{
 .tools{
     text-align: center;
 }
+
 .tools h1{
-    font-size: 32px;
+    font-size: 90px;
 }
 
 .tools p{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .toolsIcon{
+    align-items: center;
     display: flex;
     justify-content: center;
 }
 
 .tools img{
+    height: 100%;
     margin: 20px;
-    width: 5%;
-}
-
-footer{
-    margin-top: 200px;
-    text-align: center;
+    width: 120px;
 }
 
 input{
@@ -110,13 +106,23 @@ input{
     width: 320px;
 }
 
-.footer{
+footer{
     margin-top: 200px;
     text-align: center;
 }
 
-.footer a{
+footer a{
     color: #030303;
     font-weight: bold;
     text-decoration: none;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+.linkedinIcon{
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
 }
