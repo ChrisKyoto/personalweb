@@ -81,7 +81,9 @@ img{
 }
 
 .link a{
+    display: block;
     font-size: 24px;
+    margin-bottom: 80px;
 }
 
 /* link end */
